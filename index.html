@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <script src="js/scripts.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        padding: 30px;
+      }
+      div {
+        font-family: "Roboto", sans-serif;
+      }
+      button {
+        margin-top: 10px;
+      }
+    </style>
+    <title>Функції</title>
+  </head>
+  <body>
+    <div>
+      1. Написать функцию, которая принимает 2 числа и возвращает -1, если
+      первое меньше, чем второе; 1 – если первое больше, чем второе; и 0 – если
+      числа равны.
+    </div>
+    <button onclick="comparisonOfNumbers()">Сomparison of numbers</button
+    ><br /><br />
+    <div>
+      2. Написать функцию, которая вычисляет факториал переданного ей числа.
+    </div>
+    <button onclick="fact()">Factorial</button><br /><br />
+    <div>
+      3. Написать функцию, которая принимает три отдельные цифры и превращает их
+      в одно число. Например: цифры 1, 4, 9 превратятся в число 149.
+    </div>
+    <button onclick="oneNumber()">One number</button><br /><br />
+    <div>
+      4. Написать функцию, которая принимает длину и ширину прямоугольника и
+      вычисляет его площадь. Если в функцию передали 1 параметр, то она
+      вычисляет площадь квадрата.
+    </div>
+    <button onclick="rectangle()">Rectangle</button><br /><br />
+    <div>
+      5. Написать функцию, которая проверяет, является ли переданное ей число
+      совершенным. Совершенное число – это число, равное сумме всех своих
+      собственных делителей.
+    </div>
+    <button onclick="perfectNumber()">Perfect Number</button><br /><br />
+    <div>
+      6. Написать функцию, которая принимает минимальное и максимальное значения
+      для диапазона, и выводит только те числа из диапазона, которые являются
+      совершенными. Используйте написанную ранее функцию, чтобы узнавать,
+      совершенное число или нет.
+    </div>
+    <button onclick="getPerfect()">Get Perfect Number</button><br /><br />
+    <div>
+      7. Написать функцию, которая принимает время (часы, минуты, секунды) и
+      выводит его на экран в формате «чч:мм:сс».Если при вызове функции минуты
+      и/или секунды не были переданы, то выводить их как 00.
+    </div>
+    <button onclick="getTime()">Get time</button><br /><br />
+    <div>
+      8. Написать функцию, которая принимает часы, минуты и секунды и возвращает
+      это время в секундах.
+    </div>
+    <button onclick="getTimeInSeconds()">Get time in seconds</button
+    ><br /><br />
+    <div>
+      9. Написать функцию, которая принимает количество секунд, переводит их в
+      часы, минуты и секунды и возвращает в виде строки «чч:мм:сс».
+    </div>
+    <button onclick="getTimeInHours()">
+      Get time in hours, minutes, seconds</button
+    ><br /><br />
+    <div>
+      10. Написать функцию, которая считает разницу между датами. Функция
+      принимает 6 параметров, которые описывают 2 даты, и возвращает результат в
+      виде строки «чч:мм:сс». При выполнении задания используйте функции из
+      предыдущих 2-х заданий: сначала обе даты переведите в секунды, узнайте
+      разницу в секундах, а потом разницу переведите обратно в «чч:мм:сс»
+    </div>
+    <button onclick="getDateDifference()">Date difference</button><br /><br />
+  </body>
+</html>
